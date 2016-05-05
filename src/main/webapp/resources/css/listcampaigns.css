@@ -1,0 +1,127 @@
+a {
+	color: #3b5998;
+	text-decoration: none;
+	border-bottom: 1px solid #8b9dc3;
+}
+
+a#customAdd {
+	float: left;
+	width: 32px;
+	height: 32px;
+	display: block;
+	background: url(/resources/images/add.png) no-repeat 0 0;
+}
+
+a#customAdd:hover {
+	background-position: 0 -32px;
+}
+
+.switch-wrapper {
+	display: inline-block;
+	position: relative;
+	top: 3px;
+}
+
+.bodycontainer {
+	max-height: 450px;
+	width: 100%;
+	margin: 0;
+	overflow-y: auto;
+}
+
+/* .table-scrollable {
+	margin: 0; padding : 0;
+	overflow-y: auto; absolute;
+	height: 300px;
+	padding: 0;
+} */
+
+/* tbody {
+	overflow-y: auto;
+	height: 40%;
+	absolute;
+} */
+
+/* .cutombodystyle {
+	overflow-y: auto;
+	height: 40%;
+	absolute;
+} */
+#mainselection select {
+	border: 0;
+	color: #3B5998;
+	background: transparent;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 2px 10px;
+	width: 130px;
+	*background: #DFE3EE;
+	-webkit-appearance: none;
+}
+
+#mainselection {
+	overflow: hidden;
+	width: 130px;
+	font-size: 13px;
+	font-weight: bold;
+	padding: 2px 10px;
+	font-color: #3B5998;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 1px 1px 11px #330033;
+	background: #F7F7F7 no-repeat scroll 319px center;
+}
+
+.styled-select {
+	background: #D3D3D3 no-repeat 96% 0;
+	/* color: #D3D3D3 */;
+	/*    <img src='<c:url value="/resources/images/Spinner2.gif" />' */
+	height: 29px;
+	overflow: hidden;
+	width: 240px;
+}
+
+.semi-square {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/* BELOW STYLE IS FOR FIXED TABLE HEADER  */
+.header-fixed {
+	width: 100%
+}
+
+.header-fixed>thead, .header-fixed>tbody, .header-fixed>thead>tr,
+	.header-fixed>tbody>tr, .header-fixed>thead>tr>th, .header-fixed>tbody>tr>td
+	{
+	display: block;
+}
+
+.header-fixed>tbody>tr:after, .header-fixed>thead>tr:after {
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+
+.header-fixed>tbody {
+	overflow-y: auto;
+	height: 300px;
+	width: 100%;
+}
+
+.header-fixed>tbody>tr>td, .header-fixed>thead>tr>th {
+	width: 50%;
+	float: left;
+}
+
+.btn-download-imgbg {
+	background: transparent url(../images/download3.png) no-repeat; width:45px;height:45px;
+}
+ .btn-add-bg-img {
+	background: transparent url(../images/add2.png) no-repeat; width:35px;height:35px;
+}
+ .btn-cron-bg-img {
+	background: transparent url(../images/cronjob4.png) no-repeat; width:35px;height:35px;
+}

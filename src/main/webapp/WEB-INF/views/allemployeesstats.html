@@ -1,0 +1,56 @@
+<html>
+  <head>
+  <title>Project Planner</title>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+	google.load('visualization', '1', {packages: ['timeline']});
+    google.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+      var data = google.visualization.arrayToDataTable([
+        ['Activity', 'Start Time', 'End Time'],
+        ['Ram Manchala',
+         new Date(2016, 00, 01),
+         new Date(2016, 00, 30)],
+        ['Shridhar Reddy',
+         new Date(2016, 00, 15),
+         new Date(2016, 00, 19)],
+        ['Sandeep Kumar',
+         new Date(2016, 00, 03),
+         new Date(2016, 00, 25)],
+        ['Santosh Reddy',
+         new Date(2016, 00, 09),
+         new Date(2016, 00, 29)],
+        ['Sai Reddy',
+         new Date(2016, 00, 11),
+         new Date(2016, 00, 30)],
+        ['Vinod Patil',
+         new Date(2016, 00, 10),
+         new Date(2016, 00, 30)],
+        ['Sunil Lakkakula',
+         new Date(2016, 00, 01),
+         new Date(2016, 00, 10)]
+       
+      ]);
+
+      /*var options = {
+        height: 450,
+		height: 900
+      };*/
+	  var options = {'title':'Project Planner India Team',
+                       'width':1200,
+                       'height':450};
+
+      var chart = new google.visualization.Timeline(document.getElementById('chart_div'));
+
+      chart.draw(data, options);
+    }
+	</script>
+
+	
+	<script type="text/javascript" src="https://www.google.com/jsapi?autoload={'modules':[{'name':'visualization','version':'1.1','packages':['corechart', 'timeline']}]}"></script>
+   
+    <div id="chart_div"></div>
+
+   

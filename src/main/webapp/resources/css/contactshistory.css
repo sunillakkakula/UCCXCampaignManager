@@ -1,0 +1,24 @@
+.td-style {
+    text-align: center;
+    background: #DEE7EF;
+    width:100px;
+}
+.delete-cell {
+	padding: 8px 20px;
+	background: #DEE7EF;
+	width:100px;
+	color: #fff;
+	border-radius: 4px;
+	border: none;
+	margin-top: 10px;
+}
+
+.btn-delete {
+	padding: 8px 20px;
+	background: #23527C;
+	width:100px;
+	color: #fff;
+	border-radius: 4px;
+	border: none;
+}
+

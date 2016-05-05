@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "BEBAS";
+    src: url('Bebas.eot');
+    src: url('Bebas.eot?#iefix') format('embedded-opentype'),
+         url('Bebas.woff') format('woff'),
+         url('Bebas.ttf') format('truetype'),
+         url('Bebas.svg#Bebas') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oswald-ExtraLight";
+    src: url('Oswald-ExtraLight.eot');
+    src: url('Oswald-ExtraLight.eot?#iefix') format('embedded-opentype'),
+         url('Oswald-ExtraLight.woff') format('woff'),
+         url('Oswald-ExtraLight.ttf') format('truetype'),
+         url('Oswald-ExtraLight.svg#Oswald-ExtraLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oswald-Medium";
+    src: url('Oswald-Medium.eot');
+    src: url('Oswald-Medium.eot?#iefix') format('embedded-opentype'),
+         url('Oswald-Medium.woff') format('woff'),
+         url('Oswald-Medium.ttf') format('truetype'),
+         url('Oswald-Medium.svg#Oswald-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
