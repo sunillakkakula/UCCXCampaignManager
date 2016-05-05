@@ -4,7 +4,7 @@ import java.util.Map;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.codehaus.jackson.annotate.JsonProperty;
-
+/*Purpose Testing Campaign */
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class Campaign {
 	@JsonProperty("campaign")
